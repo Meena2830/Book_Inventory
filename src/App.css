@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e1ff;
+  padding: 10px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  flex: 1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.filter-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  width: auto;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+  background-color: #f5f3fc;
+  min-height: 500px;
+}
+
+.filter-container label {
+  font-size: 16px;
+  color: #333;
+}
+
+.filter-container select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

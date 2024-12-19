@@ -1,0 +1,69 @@
+/* BookList Container */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.book-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.book-card strong {
+  font-weight: bold;
+}
+
+.book-card button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.book-card button:hover {
+  background-color: #0056b3;
+}
+
+.book-card button:active {
+  background-color: #004085;
+}
+
+.book-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.no-books-message {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
